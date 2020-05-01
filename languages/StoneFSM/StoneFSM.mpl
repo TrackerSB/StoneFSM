@@ -6,7 +6,9 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" />
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
   </facets>
   <accessoryModels />
   <generators>
@@ -17,9 +19,14 @@
         </modelRoot>
       </models>
       <facets>
-        <facet type="java" />
+        <facet type="java">
+          <classes generated="true" path="${module}/generator/classes_gen" />
+        </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">2e2d57c2-e8e4-4245-8316-cf39afc7d183(StoneFSM)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
