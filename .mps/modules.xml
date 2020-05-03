@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/StoneFSM/StoneFSM.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/StoneFSM/runtime/StoneFSM.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/StoneFSM/sandbox/StoneFSM.sandbox.msd" folder="" />
     </projectModules>
   </component>
