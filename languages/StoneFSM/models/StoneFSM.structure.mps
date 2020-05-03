@@ -73,7 +73,6 @@
     <property role="TrG5h" value="State" />
     <property role="EcuMT" value="7283241788878545584" />
     <property role="3GE5qa" value="state" />
-    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6JuZT66XO_r" role="1TKVEi">
       <property role="IQ2ns" value="7772931007387748699" />
@@ -99,11 +98,16 @@
     <node concept="PrWs8" id="73nFCSEaLF3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="6JuZT672jma" role="1TKVEl">
+      <property role="IQ2nx" value="7772931007388923274" />
+      <property role="TrG5h" value="isFinal" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6kjht6noIaR">
     <property role="TrG5h" value="Output" />
     <property role="EcuMT" value="7283241788878545591" />
-    <property role="3GE5qa" value="state" />
+    <property role="3GE5qa" value="state.output" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -119,12 +123,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6kjht6noIaK" resolve="State" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6kjht6noIb9">
-    <property role="EcuMT" value="7283241788878545609" />
-    <property role="TrG5h" value="FinalState" />
-    <property role="3GE5qa" value="state" />
-    <ref role="1TJDcQ" node="6kjht6noIaK" resolve="State" />
   </node>
   <node concept="1TIwiD" id="6kjht6noPgl">
     <property role="TrG5h" value="TransitionList" />
@@ -159,24 +157,19 @@
   <node concept="1TIwiD" id="6JuZT66XXWN">
     <property role="EcuMT" value="7772931007387787059" />
     <property role="TrG5h" value="EmptyOutput" />
-    <property role="3GE5qa" value="state" />
+    <property role="3GE5qa" value="state.output" />
     <ref role="1TJDcQ" node="6kjht6noIaR" resolve="Output" />
   </node>
   <node concept="1TIwiD" id="6JuZT66XY6r">
     <property role="EcuMT" value="7772931007387787675" />
     <property role="TrG5h" value="LetterOutput" />
-    <property role="3GE5qa" value="state" />
+    <property role="3GE5qa" value="state.output" />
     <ref role="1TJDcQ" node="6kjht6noIaR" resolve="Output" />
     <node concept="1TJgyi" id="6JuZT66XY6s" role="1TKVEl">
       <property role="IQ2nx" value="7772931007387787676" />
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6JuZT66YxPO">
-    <property role="EcuMT" value="7772931007387934068" />
-    <property role="TrG5h" value="NonFinalState" />
-    <ref role="1TJDcQ" node="6kjht6noIaK" resolve="State" />
   </node>
 </model>
 
