@@ -33,10 +33,6 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
-      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
-      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
-        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
-      </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
@@ -141,23 +137,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="PKFIW" id="6JuZT66ZSf0">
-    <property role="TrG5h" value="StateProperties" />
-    <property role="3GE5qa" value="state" />
-    <ref role="1XX52x" to="y1tt:6kjht6noIaK" resolve="State" />
-    <node concept="3EZMnI" id="6JuZT66ZXl3" role="2wV5jI">
-      <node concept="2iRkQZ" id="6JuZT66ZXl4" role="2iSdaV" />
-      <node concept="3F1sOY" id="6JuZT66ZXl7" role="3EZMnx">
-        <ref role="1NtTu8" to="y1tt:6JuZT66XO_r" resolve="output" />
-      </node>
-      <node concept="3F1sOY" id="6JuZT66ZXlc" role="3EZMnx">
-        <ref role="1NtTu8" to="y1tt:6kjht6noPgf" resolve="to" />
-      </node>
-      <node concept="3F1sOY" id="6JuZT6702$x" role="3EZMnx">
-        <ref role="1NtTu8" to="y1tt:3ctNlnHQgGC" resolve="default" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="6JuZT6702Cz">
     <property role="3GE5qa" value="state.output" />
     <ref role="1XX52x" to="y1tt:6JuZT66XY6r" resolve="LetterOutput" />
@@ -331,14 +310,31 @@
         </node>
         <node concept="l2Vlx" id="6JuZT672jBi" role="2iSdaV" />
       </node>
-      <node concept="2iRkQZ" id="6JuZT672jB5" role="2iSdaV" />
-      <node concept="3EZMnI" id="6JuZT674o45" role="3EZMnx">
-        <node concept="l2Vlx" id="6JuZT674o46" role="2iSdaV" />
-        <node concept="3XFhqQ" id="6JuZT674o4W" role="3EZMnx" />
-        <node concept="PMmxH" id="6JuZT672juC" role="3EZMnx">
-          <ref role="PMmxG" node="6JuZT66ZSf0" resolve="StateProperties" />
+      <node concept="3EZMnI" id="mECEDU8euQ" role="3EZMnx">
+        <node concept="VPM3Z" id="mECEDU8euS" role="3F10Kt" />
+        <node concept="3XFhqQ" id="mECEDU8evJ" role="3EZMnx" />
+        <node concept="3F1sOY" id="mECEDU8evP" role="3EZMnx">
+          <ref role="1NtTu8" to="y1tt:6JuZT66XO_r" resolve="output" />
         </node>
+        <node concept="l2Vlx" id="mECEDU8euV" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="mECEDU8eAM" role="3EZMnx">
+        <node concept="VPM3Z" id="mECEDU8eAO" role="3F10Kt" />
+        <node concept="3XFhqQ" id="mECEDU8eBK" role="3EZMnx" />
+        <node concept="3F1sOY" id="mECEDU8eBQ" role="3EZMnx">
+          <ref role="1NtTu8" to="y1tt:6kjht6noPgf" resolve="to" />
+        </node>
+        <node concept="l2Vlx" id="mECEDU8eAR" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="mECEDU8eCO" role="3EZMnx">
+        <node concept="VPM3Z" id="mECEDU8eCQ" role="3F10Kt" />
+        <node concept="3XFhqQ" id="mECEDU8eDR" role="3EZMnx" />
+        <node concept="3F1sOY" id="mECEDU8eDX" role="3EZMnx">
+          <ref role="1NtTu8" to="y1tt:3ctNlnHQgGC" resolve="default" />
+        </node>
+        <node concept="l2Vlx" id="mECEDU8eCT" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="6JuZT672jB5" role="2iSdaV" />
     </node>
   </node>
   <node concept="IW6AY" id="6JuZT672E46">
