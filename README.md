@@ -1,7 +1,7 @@
 # StoneFSM
 ## Motivation
 Text processing is a task which is very common and required all the time.
-There are basically two many strategies for text processing which many people use in simple projects.
+There are basically two main strategies for text processing which many people use in simple projects.
 
 ### Regular expressions
 #### Pro
